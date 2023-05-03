@@ -1,0 +1,131 @@
+/* Desafio numero 2 */ 
+
+.Mensajeria{
+    display:flex; 
+    align-items: left; 
+    flex-direction: column; 
+    width: 23rem;
+    padding-left: 0rem;
+    height: max-content;
+}
+
+/* ------------------ MARIA ------------------*/
+
+.Maria{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.FotoMaria{
+    border-radius: 50%;
+    height: 2.7rem;
+}
+
+.Estado{
+    display: flex;
+    flex-direction: column;
+}
+
+.Estado h3{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.Estado p{
+    color: darkgrey;
+    font-size: 0.8rem;
+}
+
+.Iconos{ 
+    font-size: 1.2rem;
+    gap: 3rem;
+    align-items: center;
+    color: darkgray;
+}
+
+.Hambur{
+    font-size: 1.8rem;
+    padding-left:1rem;
+}
+
+.HR{
+    width: 100%;
+}
+
+.NuevoChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.EstiloBoton{
+    width: 14rem;
+    height: 3rem;
+    background-color: blueviolet;
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* ------------------ Persona ------------------*/
+
+.Persona{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    align-items: center
+}
+
+.Persona h3{
+    font-size: 0.8rem;
+}
+
+.FotoPersona{
+    border-radius: 50%;
+    height: 3.8rem;
+}
+
+.Estado .UltiMen{
+    color: black;
+    font-size: 0.85rem;
+}
+ 
+/* Ahora comenzaremos con la segunda parte que es el lado derecho de las manos */
+
+/* Recordar que esta en el main */
+main{ 
+    display:flex; 
+    flex-direction: row; 
+}
+
+.SegundaParte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+.FotoManos{
+    height:25rem;
+}
+
+.Alineacion{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Alineacion h1{
+    font-size: 3rem;
+}
+
+.Alineacion p {
+    margin: 2px;
+    font-size: 1.6rem;
+}
