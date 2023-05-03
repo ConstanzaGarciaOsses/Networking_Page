@@ -1,5 +1,10 @@
 /* Desafio numero 2 */ 
 
+*{
+    margin: 0;
+  padding: 0;
+}
+
 .Mensajeria{
     display:flex; 
     align-items: left; 
@@ -9,9 +14,17 @@
     height: max-content;
 }
 
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 /* ------------------ MARIA ------------------*/
 
 .Maria{
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     padding-left: 2rem;
